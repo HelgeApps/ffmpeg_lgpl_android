@@ -1,4 +1,4 @@
-Build FFmpeg as LGPL for Android WITHOUT x264 (disabled), building/compiling WITHOUT --enable-gpl/--enable-nonfree (see ffmpeg_build.sh file)
+Build FFmpeg 3.4 as LGPL for Android WITHOUT x264 (disabled), building/compiling WITHOUT --enable-gpl/--enable-nonfree (see ffmpeg_build.sh file)
 
 Supported Architecture
 ----
