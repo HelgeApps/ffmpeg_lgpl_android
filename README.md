@@ -23,4 +23,4 @@ License
 
 Original Project
 --------
-  This is an edited fork to compile FFmpeg as LGPL without x264 (original project here http://www.writingminds.com)
+  This is an edited fork to compile FFmpeg as LGPL without x264 (original project here https://github.com/writingminds/ffmpeg-android)
