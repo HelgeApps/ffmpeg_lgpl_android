@@ -3,7 +3,6 @@ Build FFmpeg as LGPL for Android WITHOUT x264 (disabled), building/compiling WIT
 Supported Architecture
 ----
 * armv7
-* armv7-neon
 * x86
 
 Instructions
