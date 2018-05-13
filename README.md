@@ -16,6 +16,9 @@ Instructions
 * To update submodules (FFmpeg) you can use ./init_update_libs.sh command
 * Find the executable binary in build directory.
 
+**Android usage**
+* [FFmpeg Android Library](https://github.com/WritingMinds/ffmpeg-android-java) is a java library that simplifies your task of using ffmpeg in Android project
+
 License
 ----
   Check file LICENSE
