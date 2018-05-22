@@ -22,11 +22,11 @@ Android Build Instructions
 
 LICENSE
 ----
-  Check LICENSE.md and COPYING.LGPLv3 files
-  Also https://www.ffmpeg.org/legal.html
+* Check LICENSE.md and COPYING.LGPLv3 files
+* Also https://www.ffmpeg.org/legal.html
   
 More about FFmpeg
 ----
-https://www.ffmpeg.org/
-https://github.com/FFmpeg/FFmpeg
-https://github.com/FFmpeg/FFmpeg/tree/n3.2.4
+* https://www.ffmpeg.org/
+* https://github.com/FFmpeg/FFmpeg
+* https://github.com/FFmpeg/FFmpeg/tree/n3.2.4
