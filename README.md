@@ -7,7 +7,7 @@ Supported architectures
 * armeabi-v7a
 * arm64-v8a
 * x86
-* 86_64
+* x86_64
 
 Android Build Instructions
 ----
