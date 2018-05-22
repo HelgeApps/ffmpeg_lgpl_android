@@ -1,28 +1,32 @@
-Build FFmpeg 3.4 as LGPL for Android WITHOUT x264 (disabled), building/compiling WITHOUT --enable-gpl/--enable-nonfree (see ffmpeg_build.sh file)
+Build FFmpeg 3.2.4 as LGPL shared libraries for Android WITHOUT x264 (and other GPL libraries) and WITHOUT --enable-gpl/--enable-nonfree
 
-Supported Architecture
+FFmpeg code is unmodified here (unchanged)
+
+Supported architectures
 ----
-* armv7
+* armeabi-v7a
+* arm64-v8a
 * x86
+* 86_64
 
-Instructions
+Android Build Instructions
 ----
+* Download NDK r14 
+  1. https://developer.android.com/ndk/downloads/older_releases
 * Set environment variable
-  1. export ANDROID_NDK={Android NDK Base Path}
-* Run following commands to compile ffmpeg
+  1. export NDK={Android NDK Base Path}
+* Run following commands to compile FFmpeg for Android
   1. sudo apt-get --quiet --yes install build-essential git autoconf libtool pkg-config gperf gettext yasm python-lxml
-  2. ./init_update_libs.sh
-  3. ./android_build.sh
-* To update submodules (FFmpeg) you can use ./init_update_libs.sh command
-* Find the executable binary in build directory.
+  2 ./build_all.sh
+* Find the shared libraries in android directory.
 
-**Android usage**
-* [FFmpeg Android Library](https://github.com/WritingMinds/ffmpeg-android-java) is a java library that simplifies your task of using ffmpeg in Android project
-
-License
+LICENSE
 ----
-  Check file LICENSE
-
-Original Project
---------
-  This is an edited fork to compile FFmpeg as LGPL without x264 (original project here https://github.com/writingminds/ffmpeg-android)
+  Check LICENSE.md and COPYING.LGPLv3 files
+  Also https://www.ffmpeg.org/legal.html
+  
+More about FFmpeg
+----
+https://www.ffmpeg.org/
+https://github.com/FFmpeg/FFmpeg
+https://github.com/FFmpeg/FFmpeg/tree/n3.2.4
