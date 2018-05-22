@@ -17,7 +17,7 @@ Android Build Instructions
   1. export NDK={Android NDK Base Path}
 * Run following commands to compile FFmpeg for Android
   1. sudo apt-get --quiet --yes install build-essential git autoconf libtool pkg-config gperf gettext yasm python-lxml
-  2 ./build_all.sh
+  2. ./build_all.sh
 * Find the shared libraries in android directory.
 
 LICENSE
